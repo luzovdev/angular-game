@@ -11,6 +11,7 @@ export class ChildComponent implements OnInit {
   valueTwo = "Two";
 
   @Input() value!: string;
+  @Input() product!: any;
 
 
   constructor() { }
